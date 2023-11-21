@@ -1,28 +1,33 @@
-#* Uptade pacman
+# Uptade pacman
 sudo pacman -Syyu --noconfirm
 
-#* yay AUR
+# yay AUR
 sudo pacman -S yay --noconfirm
 yay -Syyu --noconfirm
 
-#* Neovim
+# Neovim
 sudo pacman -S neovim --noconfirm
 
-#* VSCode
+# VSCode
 yay -S code --noconfirm
 
-#* Brave
+# Brave
 pacman -S brave-browser --noconfirm
 
-#* Neofetch
+# Neofetch
 sudo pacman -S neofetch --noconfirm
 
-#* Postman
+# Postman
 yay -S postman 
 
-#* Pycharm
+# Pycharm
 yay -S pycharm
 
-#* Tree
+# Tree
 sudo pacman -S tree --noconfirm
+
+# Picom
+sudo pacman -S pico --noconfirm
+
+
 
