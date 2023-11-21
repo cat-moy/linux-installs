@@ -22,3 +22,7 @@ yay -S postman
 
 #* Pycharm
 yay -S pycharm
+
+#* Tree
+sudo pacman -S tree --noconfirm
+
