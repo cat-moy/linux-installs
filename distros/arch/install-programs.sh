@@ -1,9 +1,9 @@
 # Uptade pacman
-sudo pacman -Syyu --noconfirm
+sudo pacman -Syyuu --noconfirm
 
 # yay AUR
 sudo pacman -S yay --noconfirm
-yay -Syyu --noconfirm
+yay -Syyuu --noconfirm
 
 # Neovim
 sudo pacman -S neovim --noconfirm
@@ -17,12 +17,6 @@ sudo pacman -S brave-browser --noconfirm
 # Neofetch
 sudo pacman -S neofetch --noconfirm
 
-# Postman
-yay -S postman-bin 
-
-# Pycharm
-yay -S pycharm-community-edition
-
 # Tree
 sudo pacman -S tree --noconfirm
 
@@ -33,6 +27,12 @@ sudo pacman -S picom --noconfirm
 sudo pacman -S xclip --noconfirm
 
 
+
+# Postman
+yay -S postman-bin 
+
+# Pycharm
+yay -S pycharm-community-edition
 
 
 
