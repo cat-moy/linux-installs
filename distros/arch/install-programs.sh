@@ -9,25 +9,30 @@ yay -Syyu --noconfirm
 sudo pacman -S neovim --noconfirm
 
 # VSCode
-yay -S code --noconfirm
+yay -S visual-studio-code-bin --noconfirm
 
 # Brave
-pacman -S brave-browser --noconfirm
+sudo pacman -S brave-browser --noconfirm
 
 # Neofetch
 sudo pacman -S neofetch --noconfirm
 
 # Postman
-yay -S postman 
+yay -S postman-bin 
 
 # Pycharm
-yay -S pycharm
+yay -S pycharm-community-edition
 
 # Tree
 sudo pacman -S tree --noconfirm
 
 # Picom
-sudo pacman -S pico --noconfirm
+sudo pacman -S picom --noconfirm
+
+# XCLIP
+sudo pacman -S xclip --noconfirm
+
+
 
 
 
