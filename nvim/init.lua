@@ -1,3 +1,18 @@
+
+-- Show line number
+vim.o.number = true
+vim.o.cursorline = true
+
+-- Indentation
+vim.o.autoindent = true
+vim.o.smartindent = true
+vim.o.smarttab = true
+vim.o.expandtab = true
+vim.o.shiftwidth = 3
+vim.o.softtabstop = 3
+vim.o.tabstop = 3
+vim.o.wrap = true
+
 -- Configuración de indentación para archivos Python
 vim.api.nvim_exec([[
   autocmd FileType python setlocal tabstop=3 softtabstop=3 shiftwidth=3 expandtab
@@ -22,19 +37,4 @@ vim.api.nvim_exec([[
 vim.api.nvim_exec([[
   autocmd FileType go setlocal tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 ]], false)
-
--- Show line number
-vim.o.number = true
-vim.o.cursorline = true
-
--- Indentation
-vim.o.autoindent = true
-vim.o.smartindent = true
-vim.o.smarttab = true
-vim.o.expandtab = true
-vim.o.shiftwidth = 3
-vim.o.softtabstop = 3
-vim.o.tabstop = 3
-vim.o.wrap = true
-
 
