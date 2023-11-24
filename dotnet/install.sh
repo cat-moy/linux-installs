@@ -37,9 +37,6 @@ cd /usr/local/dotnet
 export DOTNET_ROOT=/usr/local/dotnet
 export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
 
-# Agregar variables de entorno
-touch ~/.zprofiel
-
 # Instructions
 clear
 echo "
