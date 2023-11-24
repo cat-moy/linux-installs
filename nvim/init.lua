@@ -1,7 +1,16 @@
 
--- Show line number
+-- Editor
 vim.o.number = true
 vim.o.cursorline = true
+
+-- Clipboard
+vim.api.nvim_set_keymap('n', '<leader>y', '"+y', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>Y', '"+Y', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>p', '"+p', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>P', '"+P', { noremap = true, silent = true })
+
+vim.cmd('set clipboard+=unnamedplus')
+
 
 -- Indentation
 vim.o.autoindent = true
