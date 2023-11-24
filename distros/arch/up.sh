@@ -1,2 +1,2 @@
-sudo pacman -Syyu --noconfirm
-yay -Syyu --noconfirm
+sudo pacman -Syyuu --noconfirm
+yay -Syyuu --noconfirm
