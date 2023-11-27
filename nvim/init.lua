@@ -1,7 +1,6 @@
 
 -- Editor
 vim.o.number = true
-vim.o.cursorline = true
 
 -- Clipboard
 vim.api.nvim_set_keymap('n', '<leader>y', '"+y', { noremap = true, silent = true })
