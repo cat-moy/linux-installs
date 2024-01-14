@@ -26,6 +26,8 @@ sudo pacman -S picom --noconfirm
 # XCLIP
 sudo pacman -S xclip --noconfirm
 
+# Tmux
+sudo pacman -S tmux --noconfirm
 
 
 # Postman
