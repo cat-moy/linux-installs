@@ -3,3 +3,4 @@ timedatectl set-local-rtc 1 --adjust-system-clock
 
 # Alias
 echo alias c="clear;echo '==============================';ls;echo '=============================='"
+
