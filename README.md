@@ -1,6 +1,6 @@
 # Linux Installs
 
-1.Ejecutar el los scripts de zsh
+1.Ejecutar los scripts de zsh
 - zsh
 - plugins
 
