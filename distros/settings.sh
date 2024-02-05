@@ -4,7 +4,7 @@ timedatectl set-local-rtc 1 --adjust-system-clock
 # Alias
 echo alias c="clear;echo '==============================';ls;echo '=============================='"
 
-echo alias s='
+echo alias sha='
 echo "================================
 "
 echo "Iniciando servicio"
